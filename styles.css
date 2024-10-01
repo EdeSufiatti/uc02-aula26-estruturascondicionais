@@ -38,3 +38,6 @@ body {
     margin: 20px auto;
     
 }
+#lampContainer img {
+    transform: rotate(180deg); /* Rotaciona a lâmpada de cabeça para baixo */
+}
