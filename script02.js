@@ -27,9 +27,6 @@ if (elementoImagem.src) {
         document.body.appendChild(lampContainer)
     }
 
-  
-    lampContainer.innerHTML = ''
-    
-    
+      
     lampContainer.appendChild(elementoImagem)
 }
