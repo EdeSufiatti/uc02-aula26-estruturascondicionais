@@ -1,6 +1,4 @@
-//baseado no comando informado, mostrar uma lâmpada ligada ou desligada
-
-const comando prompt("Informe o comando para a lâmpada (ligar / desligar)")
+const comando = prompt("Informe o comando para a lâmpada (ligar / desligar)")
 
 const elementoImagem = document.createElement("img")
 switch (comando.toLowerCase()) {
